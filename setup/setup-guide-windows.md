@@ -19,13 +19,9 @@ The project directory structure will be:
 
 
 1. Open Command Prompt (`cmd`) or PowerShell.
-2. Download the Git installer:
-   ```powershell
-   curl -o git-installer.exe https://git-scm.com/download/win
-3. Run installer:
-   ```powershell
-   start git-installer.exe
-   ```
+2. Download the Git installer from site:
+   https://git-scm.com/downloads/win
+3. Run installer
 4. Follow the installation prompts (default settings are fine).
 5. Verify the installation:
     ```powershell
