@@ -1,1 +1,1 @@
-# petnica-fizika-resursi
+Ovde se nalaze resursi za seminare Fizika 1 i Fizika 2, kao i uputstva za setup okruzenja
