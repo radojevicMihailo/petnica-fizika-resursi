@@ -42,9 +42,15 @@ The project directory structure will be:
    ```
 3. Follow the prompts to complete the installation and restart your terminal.
 
+## Step 3: Add Miniconda to the path
+
+1. Type in "Edit enviroment variables" in windows bar and open it
+2. In user variables, click on path, and then click edit
+3. Add "C:\Users\<username>\miniconda3\Scripts" and "C:\Users\<username>\miniconda3" to the path
+
 ---
 
-## Step 3: Install Visual Studio Code
+## Step 4: Install Visual Studio Code
 
 1. Download VS Code:
    ```bash
@@ -57,7 +63,7 @@ The project directory structure will be:
 
 ---
 
-## Step 4: Create Project Directory Structure
+## Step 5: Create Project Directory Structure
 
 1. Create the `petnica_projects` directory:
    ```bash
@@ -70,7 +76,7 @@ The project directory structure will be:
 
 ---
 
-## Step 5: Initialize Git Repository
+## Step 6: Initialize Git Repository
 
 1. Initialize the Git repository:
    ```bash
@@ -95,7 +101,7 @@ The project directory structure will be:
 
 ---
 
-## Step 6: Set Up Conda Virtual Environment
+## Step 7: Set Up Conda Virtual Environment
 
 1. Create a new Conda virtual environment:
    ```bash
@@ -112,7 +118,7 @@ The project directory structure will be:
 
 ---
 
-## Step 7: Test the Setup
+## Step 8: Test the Setup
 
 1. Check the folder structure:
    ```bash
