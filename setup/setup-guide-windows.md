@@ -21,13 +21,17 @@ The project directory structure will be:
 1. Open Command Prompt (`cmd`) or PowerShell.
 2. Download the Git installer:
    ```powershell
-   curl -o git-installer.exe https://git-scm.com/download/win
+   curl -L -o git-installer.exe https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.2/Git-2.47.1.2-64-bit.exe
 3. Run installer:
    ```powershell
    start git-installer.exe
    ```
 4. Follow the installation prompts (default settings are fine).
-5. Verify the installation:
+5. Update github to the latest version:
+   ```powershell
+   git update-git-for-windows
+   ```
+6. Verify the installation:
     ```powershell
     git --version
     ```
@@ -51,7 +55,7 @@ The project directory structure will be:
 
 1. Download VS Code:
    ```powershell
-   curl -o vscode-installer.exe https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+   curl -L -o vscode-installer.exe "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
    ```
 2. Run installer:
    ```powershell
